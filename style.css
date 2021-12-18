@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+h1 {color: rgb(31, 2, 194);
+text-align: center;}
+h2 {color: red}
+a {color:rgb(9, 71, 9);} 
+nav a, ul {    
+    text-decoration: none ;
+    list-style-type: none ;
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-top: 5px;
+}
+nav { 
+    background-color: black;
+    height: 50 px;
+}
+
+p {
+    line-height:2;
+        text-indent: 50px;
+        margin-left:20px;
+        margin-right:20px;
+        text-align: justify;
+        font-size:22px;
+}
